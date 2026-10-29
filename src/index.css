@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Sardar KS UI Brand */
+
+  --sardar-primary: #4f46e5;
+  --sardar-primary-hover: #4338ca;
+  --sardar-primary-light: #eef2ff;
+
+  /* Light Theme */
+
+  --sardar-background: #f8fafc;
+  --sardar-surface: #ffffff;
+  --sardar-border: #e2e8f0;
+
+  --sardar-text: #0f172a;
+  --sardar-text-muted: #64748b;
+
+  /* Status */
+
+  --sardar-success: #16a34a;
+  --sardar-warning: #d97706;
+  --sardar-danger: #dc2626;
+  --sardar-info: #2563eb;
+}
+
+.dark {
+  /* Dark Theme */
+
+  --sardar-background: #020617;
+  --sardar-surface: #0f172a;
+  --sardar-border: #1e293b;
+
+  --sardar-text: #f8fafc;
+  --sardar-text-muted: #94a3b8;
+
+  --sardar-primary: #6366f1;
+  --sardar-primary-hover: #818cf8;
+  --sardar-primary-light: #1e1b4b;
+}
